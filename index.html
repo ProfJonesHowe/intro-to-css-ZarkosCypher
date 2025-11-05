@@ -1,15 +1,54 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<title>My Blog</title>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <title>My Advanced Webpage</title>
+  </head>
+  
   <body>
-    <h1>Welcome to my blog</h1>
-    <h2>Data Privacy</h2>
-    <h3>Starting your jorney with data privacy!Fun fact Qubes OS is the most secure Operating system but they call them selves a reasonably secure opertating system.</h3>
-    <p>If you want to start off your data privacy journey, the best things to start off with are encrypting your dirves, and swapping your UEFI/BIOS bootloder to an open source one like libreboot and encrypt your dive with vera crypt</p> 
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Qubes_OS_Logo.svg/953px-Qubes_OS_Logo.svg.png" alt="Image Of QubesOS Logo" width="auto" height="70px">
-    <a href="https://www.whonix.org/wiki/Host_Operating_System_Selection">Privacy Risks Of Windows</a>
+    <header>
+      <h1>my advanced webpage</h1>
+      <nav>
+        <a href=#about”>About</a>
+        <a href=#gallery”>Gallery</a>
+        <a href=#contact”>Contact</a>
+      </nav>
+    </header>
+    <h1>A Webpage</h1>
+    <p>included text</p>
+
+    <main>
+      <section id="about">
+        <h2>About This Page</h2>
+        <p>This section explains the purpose of the site and introduces advanced HTML structure.</p>
+      </section>
+
+      <figure>
+        <img src="image1.jpg" alt="HTML and CSS code example">
+        <figcaption>Figure 1: Clean semantic code improves readability and accessibility.</figcaption>
+      </figure>
+
+      <section id="gallery">
+        <h2>Image Gallery</h2>
+        <p>Preview of design samples will go here later. </p>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Form</h2>
+        <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>2025 Web Technologies Essentials</p>
+    </footer>
   </body>
 </html>
