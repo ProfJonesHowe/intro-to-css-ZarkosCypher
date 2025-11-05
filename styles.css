@@ -1,9 +1,30 @@
 /* General styles */
-body {
+/* body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
     background-color: #0F100D;
     color: #FFF;
+} */
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+line-height: 1.6;
+color: #222;
+background: #f8f9fa;
+max-width: 72ch;
+margin: 0 auto;
+padding: 1rem;
+}
+
+/* Normalize spacing */
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+
+/* Mobile first responsiveness */
+@media (min-width: 700px)
+{
+body {padding: 2rem; }
+form {max-width: 600px; }
 }
